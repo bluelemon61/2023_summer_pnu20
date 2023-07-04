@@ -13,32 +13,36 @@ void push(queue<int>* q){
 }
 
 void pop(queue<int>* q){
-    if (q->empty()) cout << -1 << endl;
+    if (q->empty()) cout << -1 << "\n";
     else {
-        cout << q->front() << endl;
+        cout << q->front() << "\n";
         q->pop();
     }
 }
 
 void size(queue<int>* q){
-    cout << q->size() << endl;
+    cout << q->size() << "\n";
 }
 
 void empty(queue<int>* q){
-    cout << q->empty() << endl;
+    cout << q->empty() << "\n";
 }
 
 void front(queue<int>* q){
-    if (q->empty()) cout << -1 << endl;
-    else cout << q->front() << endl;
+    if (q->empty()) cout << -1 << "\n";
+    else cout << q->front() << "\n";
 }
 
 void back(queue<int>* q){
-    if (q->empty()) cout << -1 << endl;
-    else cout << q->back() << endl;
+    if (q->empty()) cout << -1 << "\n";
+    else cout << q->back() << "\n";
 }
 
 int main(void) {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    
     int n = 0;
     cin >> n;
 
