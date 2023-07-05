@@ -7,6 +7,10 @@ using std::stack;
 
 int main(void){
     
+    std::ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+
     stack<int> s_sequence; // 수열을 만들기 위한 stack
     char *result;          // 출력값을 저장할 char 배열
     int result_index=0;    // 입력할 result의 index 
