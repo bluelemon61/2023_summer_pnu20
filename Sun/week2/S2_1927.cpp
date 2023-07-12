@@ -3,13 +3,13 @@ using namespace std;
 
 int main(void){
     ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
+    //cin.tie(0);
+    //cout.tie(0);
 
-    int n;
-    int input;
-    int heap_index;
-    int j, temp;
+    int n;                // the number of input
+    int input;            // each input value 
+    int heap_index;       // the last index of heap 
+    int j, temp;          
     int parent, child;
     int *heap;
 
